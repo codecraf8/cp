@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,400i,600,600i,700|Poppins:200,300,400,500,500i,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Coustard:400,400i,600,600i,700|Poppins:200,300,400,500,500i,600,700,800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Tangerine+Text:400,400i,600,600i,700|Poppins:200,300,400,500,500i,600,700,800&display=swap");
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_extend.scss */
 
@@ -43,7 +43,7 @@
 /* 1. Theme default css */
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 body {
-  font-family: "Inconsolata", serif;
+  font-family: "Coustard", serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -127,7 +127,7 @@ p {
   line-height: 28px;
   color: #919191;
   margin-bottom: 13px;
-  font-family: "Inconsolata", serif;
+  font-family: "Coustard", serif;
 }
 
 /* line 67, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
@@ -649,7 +649,7 @@ h3 {
 /* line 21, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_section_title.scss */
 .section_title p {
   font-size: 17px;
-  font-family: "Inconsolata", serif;
+  font-family: "Coustard", serif;
   font-weight: 400;
   line-height: 28px;
   color: #727272;
@@ -2384,7 +2384,7 @@ h3 {
 .subscribe_newsletter .newsletter_form .newsletter_form input::placeholder {
   font-size: 16px;
   font-weight: 400;
-  font-family: "Inconsolata", serif;
+  font-family: "Coustard", serif;
   color: #919191;
 }
 

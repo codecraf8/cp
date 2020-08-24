@@ -84,100 +84,108 @@
                   <div class="blog_details">
                      
                     <h2 id="payment-ecosystem">Payment Ecosystem</h2>
-                    <p>Payment refers to transfer of currency value from one party to the other. The payment industry is a fairly complex maze and to be able to envisage a new product or solution it is important to understand the traditional methods and how they are changing.</p>
-                    <p>The payment ecosystem happens when people want to transact goods using currency. It can be Offline Brick and Mortar, to online shopping websites, to e-Commerce, m-Commerce or the recent rage social commerce.</p>
-                    <p>The major instrument for successful payments include</p>
-                    <ul>
-                    <li>
-                    <p>Cash</p>
-                    </li>
-                    <li>
-                    <p>Check</p>
-                    </li>
-                    <li>
-                    <p>Credit Cards</p>
-                    </li>
-                    <li>
-                    <p>Debit Card</p>
-                    </li>
-                    <li>
-                    <p>Prepaid or Gift Cards</p>
-                    </li>
-                    <li>
-                    <p>Mobile Wallets</p>
-                    </li>
-                    </ul>
-                    <p>There are two major payments system models</p>
-                    <ul>
-                    <li>
-                    <p>Open loop(relies on intermediaries like banks to connect parties)</p>
-                    </li>
-                    <li>
-                    <p>Closed loop (do not rely on intermediaries, providers as PayPal or a Sodexo card accepted only at selected stores, they inherently rely on intermediaries)</p>
-                    </li>
-                    </ul>
-                    <p>The different players involved in payment transaction are as follows</p>
-                    <ul>
-                    <li>
-                    <p>Issuer/Issuing Bank : The debit or credit cards are usually issued by an “issuer” the bank.</p>
-                    </li>
-                    <li>
-                    <p>Merchant : The party that accepts payments.</p>
-                    </li>
-                    <li>
-                    <p>Acquirers : Terminals that help merchants accept payments.</p>
-                    </li>
-                    <li>
-                    <p>Network : The transmission from terminal to the merchant account is routed by a protocol provider that makes the network. Eg. VISA, MasterCard, American Express</p>
-                    </li>
-                    <li>
-                    <p>ISO : Independent Sales Organisation</p>
-                    </li>
-                    <li>
-                    <p>MSP : Member Service Provider</p>
-                    </li>
-                    <li>
-                    <p>Both ISO and MSPs are neither banks, nor networks but complement the network by providing add on services.</p>
-                    </li>
-                    </ul>
-                    <h2 id="how-does-the-payment-ecosystem-work">How does the Payment Ecosystem Work?</h2>
-                    <ol>
-                    <li>
-                    <p>The customer visits a merchant either online or offline, and starts the checkout.</p>
-                    </li>
-                    <li>
-                    <p>Merchant asks the customer’s payment credentials to process the transaction via an offline terminal or an online payment gateway.</p>
-                    </li>
-                    <li>
-                    <p>Customer needs to authorize the payment.</p>
-                    </li>
-                    <li>
-                    <p>Payment Handler returns a response to the Payment Request API, which relays it to the merchant site.</p>
-                    </li>
-                    <li>
-                    <p>The merchant site sends a credential to a Payment Service Provider to process the payment and initiate funds transfer.</p>
-                    </li>
-                    <li>
-                    <p>The PSP securely requests a funds transfer from the customer’s bank or credit card issues to the merchant, and returns a success or failure result.</p>
-                    </li>
-                    <li>
-                    <p>The merchant website / payment terminal notifies the customer of the success or failure and displays subsequent steps.</p>
-                    </li>
-                    </ol>
-                    <h2 id="what-does-a-payment-request-look-like">What does a Payment Request look like?</h2>
-                    <p>A Payment Request consists of two parameters</p>
-                    <ul>
-                    <li>
-                    <p>paymentMethod (card type, network data)</p>
-                    </li>
-                    <li>
-                    <p>paymentDetails (total due amount, currency)</p>
-                    </li>
-                    </ul>
-                    
-                    
-                    
-                     
+<p>Payment refers to transfer of currency value from one party to the other. The payment industry is a fairly complex maze and to be able to envisage a new product or solution it is important to understand the traditional methods and how they are changing.</p>
+<p>The payment ecosystem happens when people want to transact goods using currency. It can be Offline Brick and Mortar, to online shopping websites, to e-Commerce, m-Commerce or the recent rage social commerce.</p>
+<p>The major instrument for successful payments include</p>
+<ul>
+<li>
+<p>Cash</p>
+</li>
+<li>
+<p>Check</p>
+</li>
+<li>
+<p>Credit Cards</p>
+</li>
+<li>
+<p>Debit Card</p>
+</li>
+<li>
+<p>Prepaid or Gift Cards</p>
+</li>
+<li>
+<p>Mobile Wallets</p>
+</li>
+</ul>
+<p>There are two major payments system models</p>
+<ul>
+<li>
+<p>Open loop(relies on intermediaries like banks to connect parties)</p>
+</li>
+<li>
+<p>Closed loop (do not rely on intermediaries, providers as PayPal or a Sodexo card accepted only at selected stores, they inherently rely on intermediaries)</p>
+</li>
+</ul>
+<p>The different players involved in payment transaction are as follows</p>
+<ul>
+<li>
+<p>Issuer/Issuing Bank : The debit or credit cards are usually issued by an “issuer” the bank.</p>
+</li>
+<li>
+<p>Merchant : The party that accepts payments.</p>
+</li>
+<li>
+<p>Acquirers : Terminals that help merchants accept payments.</p>
+</li>
+<li>
+<p>Network : The transmission from terminal to the merchant account is routed by a protocol provider that makes the network. Eg. VISA, MasterCard, American Express</p>
+</li>
+<li>
+<p>ISO : Independent Sales Organisation</p>
+</li>
+<li>
+<p>MSP : Member Service Provider</p>
+</li>
+<li>
+<p>Both ISO and MSPs are neither banks, nor networks but complement the network by providing add on services.</p>
+</li>
+</ul>
+<h2 id="how-does-the-payment-ecosystem-work">How does the Payment Ecosystem Work?</h2>
+<ol>
+<li>
+<p>The customer visits a merchant either online or offline, and starts the checkout.</p>
+</li>
+<li>
+<p>Merchant asks the customer’s payment credentials to process the transaction via an offline terminal or an online payment gateway.</p>
+</li>
+<li>
+<p>Customer needs to authorize the payment.</p>
+</li>
+<li>
+<p>Payment Handler returns a response to the Payment Request API, which relays it to the merchant site.</p>
+</li>
+<li>
+<p>The merchant site sends a credential to a Payment Service Provider to process the payment and initiate funds transfer.</p>
+</li>
+<li>
+<p>The PSP securely requests a funds transfer from the customer’s bank or credit card issues to the merchant, and returns a success or failure result.</p>
+</li>
+<li>
+<p>The merchant website / payment terminal notifies the customer of the success or failure and displays subsequent steps.</p>
+</li>
+</ol>
+<h2 id="what-does-a-payment-request-look-like">What does a Payment Request look like?</h2>
+<p>A Payment Request consists of two parameters</p>
+<ul>
+<li>
+<p>paymentMethod (card type, network data)</p>
+</li>
+<li>
+<p>paymentDetails (total due amount, currency)</p>
+</li>
+</ul>
+<h2 id="history-of-digital-payments-in-india">History of Digital Payments in India</h2>
+<p>Cash is the de-facto mode of payment across the globe. More than 95% of the transactions in India are still cash-based. While demonetization wiped out 86% of the currency from the Indian market almost 2 years ago, the ‘currency in circulation’ has increased more than two-folds since January 2017 to 19.5 Lakh Crore rupees (as per RBI). Other modes of payment, specially digital payments, have grown steadily for the past many years.</p>
+<p>While Credit and Debit cards are the most popular cashless modes of payment introduced more than 3 decades ago in India, the adoption is still slow and steady. There are challenges in adoption due to lack of infrastructure, connectivity and PoS machines. The penetration is low amongst small ticket merchants as well as tier-2, tier-3 cities since banks lack the will to promote PoS adoption for small businesses.</p>
+<p>Demonetization disrupted the cash economy for a while with a rise in digital payments. Digital payments growth has been accelerated by four years due to demonetization. Since then, the cash is back, but mobile payments are being used twice as much. Currently, less than 5% of the transactions are cashless and there has been a strong push by the government for digital payments by promoting mobile-based payment methods like USSD as well as Aadhar based payments like AEPS and mobile ATMs. (<a href="https://www.tonetag.com/tonetag-blog/evolution-of-digital-payments-in-india/">https://www.tonetag.com/tonetag-blog/evolution-of-digital-payments-in-india/</a>)</p>
+<h2 id="digital-payments-india">Digital payments india</h2>
+<p>Many governments have already realized major benefits by digitizing payments and have taken steps in that direction which is showing results.</p>
+<p>Indians are bingeing on apps for everything ranging from healthcare to grocery and even fuel management recently. Hawkers and tea-sellers accept digital payments in many parts of India. Around 1.22 billion transactions are happening on NPCI’s UPI platform every month. But now with Paytm, PhonePay, RazorPay, Amazon Pay and Google Pay dominating the payments market and helping customer transfer money from OTP to QR scan code</p>
+<p>UPI volume is likely to grow at 287 per cent CAGR from 5.35 billion transactions in FY19 to 59.77 billion in FY23. Digital India on the path of revolution, is likely to hit $12.4-trillion mark in transaction value by 2025 up from $3.7 trillion in 2019.</p>
+<p>The growth for India’s digital payments has come on the back of multiple retail payment products launched including Bharat QR, Aadhaar Enabled Payment System (AePS), National Electronic Toll Collection (NETC), Bharat Bill Payment System (BBPS), and Rupay Cards.</p>
+<p>In our next article we will talk about trends and future of payment technology.</p>
+
+ 
                      
                     <p> Image Credits : Business Insider</p>
                   </div>

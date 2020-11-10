@@ -1,1 +1,17 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>regulation on Converting Cash to Digital</title><link>https://cashport.in/tags/regulation/</link><description>Recent content in regulation</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>Page(/tags/regulation)</managingEditor><lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/regulation/" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>regulation on Converting Cash to Digital</title>
+		<link>https://cashport.in/tags/regulation/</link>
+		<description>Recent content in regulation </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>en-us</language>
+		
+		<managingEditor>Page(/tags/regulation)</managingEditor>
+    	
+  		<lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate>
+		
+		<atom:link href="/tags/regulation/" rel="self" type="application/rss+xml" />
+		
+	</channel>
+</rss>

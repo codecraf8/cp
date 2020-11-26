@@ -1,17 +1,1 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>aggregators on Converting Cash to Digital</title>
-		<link>https://cashport.in/tags/aggregators/</link>
-		<description>Recent content in aggregators </description>
-		<generator>Hugo -- gohugo.io</generator>
-		
-  		<language>en-us</language>
-		
-		<managingEditor>Page(/tags/aggregators)</managingEditor>
-    	
-  		<lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
-		
-		<atom:link href="/tags/aggregators/" rel="self" type="application/rss+xml" />
-		
-	</channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>aggregators on Converting Cash to Digital</title><link>https://cashport.in/tags/aggregators/</link><description>Recent content in aggregators</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>Page(/tags/aggregators)</managingEditor><lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/aggregators/" rel="self" type="application/rss+xml"/></channel></rss>
